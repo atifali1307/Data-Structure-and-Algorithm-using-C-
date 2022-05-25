@@ -6,7 +6,7 @@ void main()
   void countsort(int [],int);
   int getmax(int [],int);
   int a[]={11,30,24,7,31,16};
-  int n=length(a);
+  int n=sizeof(a)/sizeof(a[0]);
   printf("Before Sorting, Array Elemenets are: \n\n");
   printarr(a,n);
   countsort(a,n);
